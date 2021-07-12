@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Case Study</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+      <body class="body_background">
+          <center>
+            <h2 class="header">Case Study <img src="case study.mp4"></h2>
+            <br> <br>
+            <div class="login_div">
+                <label>1. Test Image 1 - </label>
+                <br>
+                <img src="th.jpg">
+                <br>
+                <label>Output on Microsoft Azure - Bottle </label>
+                <br>
+                <label>Output on Mobilitenet - Water Bottle</label>
+                <br><br>
+                <div class="lll">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>Mobilitenet is more accurate</h4>
+                </div>
+
+                <div class="login_div">
+                    <label>1. Test Image 2 - </label>
+                    <br>
+                    <img src="jpip_money_plants_hybrid.jpg" height="300px" width="300px">
+                    <br>
+                    <label>Output on Microsoft Azure - Plant </label>
+                    <br>
+                    <label>Output on Mobilitenet - Money Plant</label>
+                    <br><br>
+                    <div class="lll">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4>Mobilitenet is more accurate</h4>
+
+                        <div class="login_div">
+                            <label>1. Test Image 3 - </label>
+                            <br>
+                            <img src="th (1).jpg">
+                            <br>
+                            <label>Output on Microsoft Azure - Book </label>
+                            <br>
+                            <label>Output on Mobilitenet - Childrens Book </label>
+                            <br><br>
+                            <div class="lll">
+                                <h4>Result - </h4>
+                                <hr>
+                                <h4>Mobilitenet is more accurate</h4>`
+                            </div>
+                    </div>
+            </div>
+            <br><br>
+            <div>
+                <div class="gg">
+                    <h4 class="snap">Snapshot - </h4>
+                    <img src="th.jpg" height="300" width="230">
+                    <br>
+                    <button class="btn btn-success" onclick="check();">Identify Image</button>
+                </div>
+                <div class="gg">
+                    <h4 class="snap">Snapshot - </h4>
+                    <img src="th (1).jpg" height="300" width="230">
+                    <br>
+                    <button class="btn btn-success" onclick="check();">Identify Image</button>
+                </div>
+                <div class="gg">
+                    <h4 class="snap">Snapshot - </h4>
+                    <img src="jpip_money_plants_hybrid.jpg" height="300" width="230">
+                    <br>
+                    <button class="btn btn-success" onclick="check();">Identify Image</button>
+                </div>
+                </div>
+            </div>
+          </center>
+          <br><br>
+          <div id="col">
+            <img src="bulb.mp4" height="140" width="50">
+            <textarea class="colee" placeholder="RESULTS"></textarea>
+          </div>
+      </body>
+</html> 

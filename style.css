@@ -1,0 +1,35 @@
+.body_background{
+    background-color: lightpink;
+    text-decoration: limegreen;
+}
+
+.header{
+    color: lawngreen;
+    background: white;
+    height: 40px;
+    width: 250px;
+}
+.login_div{
+    background: white;
+    height: auto;
+    width: 500;
+}
+
+.lll{
+    background: gray;
+}
+
+.gg{
+    box-shadow: 5px 5px 18px rgb(119, 0, 255);
+}
+
+#colee{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    height: 175px;
+    width: 475px;
+}
+
+.col{
+background-color: white;
+}
